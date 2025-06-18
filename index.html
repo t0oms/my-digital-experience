@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+  <title>Mana digitālā pieredze</title>
+</head>
+
+<body class="bg-primary text-primary min-h-screen min-w-[320px]">
+  <nav class="sticky top-0 bg-secondary shadow-sm border-b border-custom z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 relative flex items-center justify-between">
+      <button id="nav-toggle" class="md:hidden text-primary focus:outline-none" aria-label="Toggle navigation">
+        MENU
+      </button>
+
+      <div id="nav-links" class="hidden md:flex justify-center space-x-6 flex-1 max-w-4xl mx-auto">
+        <a href="#intro" class="text-primary hover:text-gray-900 transition-colors font-medium">Ievads</a>
+        <a href="#section1" class="text-primary hover:text-gray-900 transition-colors font-medium">1. Nodaļa</a>
+        <a href="#section2" class="text-primary hover:text-gray-900 transition-colors font-medium">2. Nodaļa</a>
+        <a href="#section3" class="text-primary hover:text-gray-900 transition-colors font-medium">3. Nodaļa</a>
+        <a href="#section4" class="text-primary hover:text-gray-900 transition-colors font-medium">4. Nodaļa</a>
+        <a href="#section5" class="text-primary hover:text-gray-900 transition-colors font-medium">5. Nodaļa</a>
+      </div>
+      <div class="absolute right-0 top-1/2 -translate-y-1/2 flex items-center space-x-2 px-6">
+        <span class="text-sm text-primary">Light</span>
+        <div id="theme-toggle" class="toggle-switch"></div>
+        <span class="text-sm text-primary">Dark</span>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-secondary px-6 pb-4 space-y-4">
+      <a href="#intro" class="block text-primary hover:text-gray-900 font-medium">Ievads</a>
+      <a href="#section1" class="block text-primary hover:text-gray-900 font-medium">1. Nodaļa</a>
+      <a href="#section2" class="block text-primary hover:text-gray-900 font-medium">2. Nodaļa</a>
+      <a href="#section3" class="block text-primary hover:text-gray-900 font-medium">3. Nodaļa</a>
+      <a href="#section4" class="block text-primary hover:text-gray-900 font-medium">4. Nodaļa</a>
+      <a href="#section5" class="block text-primary hover:text-gray-900 font-medium">5. Nodaļa</a>
+    </div>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section id="intro" class="py-16 text-center md:h-[600px]">
+      <h1 class="md:text-6xl text-4xl font-bold text-primary mb-8">
+        Mana digitālā pieredze mācoties Latvijas Universitātē
+      </h1>
+      <p class="md:text-2xl text-primary leading-relaxed mb-6">
+        Datorzinātņu studijas Latvijas Universitātē ir saistītas ar daudziem digitālajiem rīkiem un platformām. Neatkarīgi no tā, vai tā ir kursu apmeklēšana, saziņa ar klasesbiedriem vai jaunu tehnoloģiju izmantošana uzdevumu veikšanai, digitālie rīki ir daļa no manas ikdienas studenta dzīves. Šajā lapā es dalīšos ar to, kā esmu izmantojis dažādus digitālos rīkus universitātes laikā.
+      </p>
+    </section>
+
+    <section id="section1" class="py-16">
+      <div class="flex flex-col md:flex-row bg-tertiary rounded-2xl shadow-sm overflow-hidden md:h-[600px]">
+        <div class="md:w-1/2 h-64 md:h-auto">
+          <img
+                  src="/outside1.jpg"
+                  alt="Looking at University of Latvia across the road"
+                  class="w-full h-full object-cover"
+          />
+        </div>
+
+        <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+          <h2 class="md:text-4xl text-2xl font-bold text-primary mb-4">
+            1. Latvijas Universitātes e-studiju vide
+          </h2>
+          <p class="md:text-xl text-primary leading-relaxed">
+            Latvijas Universitātes e-studiju vide ir vieta, kur es iegūstu lielāko daļu svarīgās informācijas. Es to izmantoju, lai pārbaudītu kursus, lejupielādētu materiālus, iesniegtu uzdevumus un sazinātos ar profesoriem. Tā darbojas labi, un man ar to nav bijušas nekādas problēmas. Tā būtībā ir centrālais centrs manām studijām, un tā pilda savu uzdevumu.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="py-16">
+      <div class="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-8 md:h-[550px]">
+        <div class="md:w-1/2">
+          <h2 class="md:text-4xl text-2xl font-bold text-primary mb-4">
+            2. Studijas tiešsaistē
+          </h2>
+          <p class="md:text-2xl text-primary leading-relaxed">
+            Reizēm ir nācies mācīties tiešsaitē. Nodarbībām mēs izmantojām Microsoft Teams un Zoom. Man patiesībā patika mācīties tiešsaistē - daudzas lekcijas tika ierakstītas, tāpēc es varēju tās noskatīties vēlāk, kad man tas bija ērti. Tas ļāva man veikt mācīšanos savā tempā.
+          </p>
+        </div>
+
+        <div class="md:w-1/2">
+          <img
+                  src="/hall.jpg"
+                  alt="Looking at the entrance to University of Latvia"
+                  class="w-full h-auto object-cover border-4 border-custom rounded-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="py-16">
+      <div class="bg-tertiary rounded-2xl p-12 shadow-sm md:h-[600px]">
+        <h2 class="md:text-4xl text-2xl font-bold text-primary mb-10 text-center">
+          3. Saziņas uzturēšana ar citiem studentiem
+        </h2>
+
+        <ul class="grid grid-cols-1 md:grid-cols-3 gap-10 text-primary md:text-2xl list-disc list-inside ">
+          <li>Sarunas ar klasesbiedriem ir liela daļa no mācību pieredzes. Lielākā daļa mūsu saziņas notiek tiešsaistē - izmantojot WhatsApp, Discord un dažreiz Teams.</li>
+          <li>Mēs izmantojam šīs platformas, lai palīdzētu viens otram, dalītos piezīmēs vai vienkārši sarunātos.</li>
+          <li>Tas palīdz justies savienotam, īpaši priekš grupu projektiem vai gatavojoties pārbaudes darbiem un eksāmeniem.</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="section4" class="py-16">
+      <div class="container mx-auto px-4 flex flex-col md:flex-row items-start gap-8 md:h-[500px]">
+        <div class="md:w-1/2 flex flex-col gap-4 md:max-h-[500px]">
+          <div class="flex-1 overflow-hidden border-4 border-custom rounded-lg">
+            <img
+                    src="/stairs.jpg"
+                    alt="Looking at the stairway in University of Latvia"
+                    class="w-full h-full object-cover"
+            />
+          </div>
+
+          <div class="flex-1 overflow-hidden border-4 border-custom rounded-lg">
+            <img
+                    src="/stairs2.jpg"
+                    alt="Looking down at the stairway in University of Latvia"
+                    class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div class="md:w-1/2">
+          <h2 class="md:text-4xl text-2xl font-bold text-primary mb-6">
+            4. Rīki no maniem datorzinātņu kursiem
+          </h2>
+          <p class="md:text-2xl text-primary leading-relaxed mb-6">
+            Tā kā studēju datorzinātnes, kursu laikā esmu saskāries ar daudziem digitālajiem rīkiem. Daži tika izmantoti mājasdarbu iesniegšanai vai koda testēšanai. Citi bija pilnīgi jauni rīki, ko iepriekš nebiju redzējis. Daži no tiem ir noderējuši pat reālās darba situācijās ārpus skolas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section5" class="py-16">
+      <div class="bg-tertiary rounded-2xl p-8 md:p-12 shadow-sm flex flex-col md:flex-row items-center gap-8">
+
+        <div class="md:w-1/2">
+          <h2 class="md:text-4xl text-2xl font-bold text-primary mb-6">
+            5. Noderīgi mācību rīki
+          </h2>
+          <p class="md:text-xl text-primary leading-relaxed mb-6">
+            Ārpus lekcijām es arī izmantoju digitālos rīkus, lai labāk mācītos. Viens no maniem iecienītākajiem ir Anki, kartīšu lietotne. Tā palīdz man iegaumēt lietas, izmantojot mācību tēmas atkārtošanu laika intervālos, kas ir ļoti noderīgi tādām lietām kā programmēšanas termini vai teorija. Šādi rīki padara mācīšanos nedaudz vieglāku un efektīvāku.
+          </p>
+        </div>
+
+        <div class="md:w-1/2">
+          <img
+                  src="/outside2.jpg"
+                  alt="Looking at the entrance of University of Latvia"
+                  class="w-full h-auto object-cover border-4 border-custom rounded-xl"
+          />
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="bg-secondary text-primary py-2 mt-20">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <p class="text-primary mb-4">Toms Pētersons</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
